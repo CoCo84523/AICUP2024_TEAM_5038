@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: D:/AICUP2024/SpringSeason/Cardetection/AICUP-Yolov7/train
+val: D:/AICUP2024/SpringSeason/Cardetection/AICUP-Yolov7/valid
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'car' ]
