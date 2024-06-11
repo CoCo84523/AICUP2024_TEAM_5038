@@ -45,6 +45,7 @@ pip install faiss-gpu
 ## 數據準備
 下載AICUP官方資料集解壓縮並放置到TEAM_5038_AICUP路徑下[訓練集](https://drive.google.com/file/d/1mTDO0SYJ_yzT7PEYYfcCVxsZ1g-AYUgd/view?usp=drive_link) [測試集]()<br>
 開啟[資料預處理與模型評估.ipynb](資料預處理與模型評估.ipynb)並由上往下依序執行<br>
+為了方便執行後續步驟請手動複製一組images跟labels 並命名為images-example與labels-example
 數據的路徑會如下面所示
 ```
 TEAM_5038_AICUP/train/images/0902_150000_151900
@@ -52,6 +53,7 @@ TEAM_5038_AICUP/train/images/0902_190000_191900
 TEAM_5038_AICUP/test/images/0902_150000_151900
 TEAM_5038_AICUP/test/images/0902_190000_191900
 ```
+
 
 我們使用的預訓練權重為->[`yolov7-e6e_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_training.pt)<br>
 YOLOv7的預訓練權重請放在以下路徑
